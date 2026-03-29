@@ -285,23 +285,25 @@ mask-image: radial-gradient(circle, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
 			font-family: "Noto Serif KR", serif;
 			cursor: pointer;
 		}
-	footer{
-	padding: 200px 0 260px 0;
-	text-align: center;
+.final-footer{
+	height: 100vh;                 
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background: black;
-	position: relative;
+	text-align: center;
 }
 
-footer p{
-	font-size: 22px;            
-	letter-spacing: 1px;
-	color: rgba(139, 0, 0, 0.85);   
-	
+.final-footer p{
+	font-size: 20px;
+	color: rgba(139,0,0,0.85);
+
 	text-shadow:
 		0 0 6px rgba(139,0,0,0.6),
 		0 0 12px rgba(139,0,0,0.4);
 
-	}
+	letter-spacing: 1px;
+}
 		
 	</style>
 </head>
@@ -492,9 +494,9 @@ footer p{
 			</div>
 		</section>
 
-	<footer>
-			<p>시각디자인학과 22101769 진재호</p>
-		</footer>
+	<section class="final-footer">
+	<p>시각디자인학과 22101769 진재호</p>
+</section>
 
 
 <div id="horror-screen"></div>
